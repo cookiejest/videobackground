@@ -10,7 +10,7 @@ function ( qlik) {
 		},
 		paint: function ($element) {
 			//add your rendering code here
-			$element.html( "videobackground" );
+			$element.html( "VideoBackground" );
 			//needed for export
 			return qlik.Promise.resolve();
 		}

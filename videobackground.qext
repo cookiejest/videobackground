@@ -1,14 +1,14 @@
 {
-	"name": "videobackground",
-	"description": "Basic empty visualization template",
+	"name": "Video Background",
+	"description": "Add dynamic video backgrounds to Qlik Sense Apps",
 	"type": "visualization",
 	"version": "1.0.0",
 	"icon": "extension",
-	"author": "",
-	"homepage": "",
+	"author": "Adam Cooke",
+	"homepage": "webofwork.com",
 	"keywords": "qlik-sense, visualization",
 	"license": "",
-	"repository": "",
+	"repository": "https://github.com/cookiejest/videobackground",
 	"dependencies": {
 		"qlik-sense": ">=3.0.x"
 	}
