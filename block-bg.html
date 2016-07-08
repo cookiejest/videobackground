@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Block background example</title>
+  <style>
+    html, body {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+
+<div id="block2" style="width: 100%; height: 500px;">hello</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="jquery.vide.js"></script>
+<script>
+$(document).ready(function () {
+$('#block2').vide('http://localhost:4848/extensions/videobackground/ocean.mp4'); // Non declarative initialization
+//
+//    var instance = $('#block').data('vide'); // Get the instance
+//    var video = instance.getVideoObject(); // Get the video object
+//    instance.destroy(); // Destroy instance
+//
+//    $('#block2').vide({
+//      'mp4': 'video/ocean',
+//      'webm': 'video/ocean',
+//      'ogv': 'video/ocean',
+//      'poster': 'video/ocean',
+//    });
+});
+</script>
+</body>
+</html>
