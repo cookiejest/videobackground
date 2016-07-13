@@ -85,11 +85,12 @@ function hexToRgb(hex) {
 
 //alert( hexToRgb("#0033ff").r ); // "51";
 
-alert(navigator.userAgent);
+//alert(navigator.userAgent);
 
 var RGBAString = 'rgba(' + hexToRgb(layout.background.color).r + ',' + hexToRgb(layout.background.color).g  + ',' + hexToRgb(layout.background.color).b  + ',' + BackgroundTrans +')';
 
 console.log(RGBAString);
+
 
 					$(document).ready(function () {
 						//$('#block2').vide('http://localhost:4848/extensions/videobackground/ocean.mp4');
@@ -97,6 +98,7 @@ console.log(RGBAString);
 						$('.qv-panel-content').vide({mp4: layout.background.videourl});
 
 $('.qvt-sheet').css('background-color',RGBAString);
+$('.qvt-sheet').css('font-family','Times New Roman');
 
 
 //$('.qvt-sheet').fadeTo( "slow" , 0.5, function() {});
