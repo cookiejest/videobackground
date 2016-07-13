@@ -19,6 +19,7 @@ MOVINGVIDEO
 Example Use cases:
 - Use for a static background
 
+
 ##Known Limitations
 - This currently only works when viewing through a browser that is supported by Qlik Sense. Video backgrounds do not work in Qlik Sense Desktop.
 
@@ -27,7 +28,7 @@ You can still do demos using Qlik Sense Desktop by running Qlik Sense Desktop an
 
 ##Prerequisites
 - Qlik Sense 2.2 or higher
-
+- For best performance the videos should be short clips < 20 seconds, internet speed will impact end user experience as the videos load from source.
 
 ##Step 1 - Install the extension
 - For Qlik Sense Desktop - Download the zip file, unzip the file and drop the video backgrounds folder into C:\Users\[USERNAME]\Documents\Qlik\Sense\Extensions\ 
