@@ -29,14 +29,14 @@ You can still do demos using Qlik Sense Desktop by running Qlik Sense Desktop an
 ##Prerequisites
 - Qlik Sense 2.2 or higher
 - For best performance the videos should be short clips < 20 seconds, internet speed will impact end user experience as the videos load from source.
-
+- Video backgound will only begin when the sheet with the object is navigated too.
 ##Step 1 - Install the extension
 - For Qlik Sense Desktop - Download the zip file, unzip the file and drop the video backgrounds folder into C:\Users\[USERNAME]\Documents\Qlik\Sense\Extensions\ 
 
 - For Qlik Sense Server - Download the zip file and upload the zip file through the Qlik Management Console (QMC) on the extensions tab
 
 
-##Step 2 - Add the extension into Qlik Sense on the app landing page (video backgound will only begin when the sheet with the object is navigated too).
+##Step 2 - Add the extension into Qlik Sense on the app landing page
 
 
 ##Settings
