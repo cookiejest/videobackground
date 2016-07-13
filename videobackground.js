@@ -98,7 +98,7 @@ console.log(RGBAString);
 						$('.qv-panel-content').vide({mp4: layout.background.videourl});
 
 $('.qvt-sheet').css('background-color',RGBAString);
-$('.qvt-sheet').css('font-family','Times New Roman');
+//$('.qvt-sheet').css('font-family','Times New Roman');
 
 
 //$('.qvt-sheet').fadeTo( "slow" , 0.5, function() {});
