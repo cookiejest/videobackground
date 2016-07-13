@@ -21,15 +21,11 @@ Example Use cases:
 
 
 ##Known Limitations
-- This currently only works when viewing through a browser that is supported by Qlik Sense. Video backgrounds do not work in Qlik Sense Desktop.
-
-You can still do demos using Qlik Sense Desktop by running Qlik Sense Desktop and then typing http://localhost:4848/hub into your browser.
-
-
-##Prerequisites
+- This currently only works when viewing through a browser that is supported by Qlik Sense. Video backgrounds do not work in Qlik Sense Desktop. You can still do demos using Qlik Sense Desktop by running Qlik Sense Desktop and then typing http://localhost:4848/hub into your browser.
 - Qlik Sense 2.2 or higher
 - For best performance the videos should be short clips < 20 seconds, internet speed will impact end user experience as the videos load from source.
 - Video backgound will only begin when the sheet with the object is navigated too.
+
 ##Step 1 - Install the extension
 - For Qlik Sense Desktop - Download the zip file, unzip the file and drop the video backgrounds folder into C:\Users\[USERNAME]\Documents\Qlik\Sense\Extensions\ 
 
@@ -39,7 +35,7 @@ You can still do demos using Qlik Sense Desktop by running Qlik Sense Desktop an
 ##Step 2 - Add the extension into Qlik Sense on the app landing page
 
 
-##Settings
+##Configure
 The extension requires three settings inside appearence >background info
 
 1. *Media URL* - **Required** - This is an absolute path to a mp4 or video format. 
