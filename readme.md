@@ -25,6 +25,7 @@ Example Use cases:
 - Qlik Sense 2.2 or higher
 - For best performance the videos should be short clips < 20 seconds, internet speed will impact end user experience as the videos load from source.
 - Video backgound will only begin when the sheet with the object is navigated too.
+- The extension needs to be dropped on the app landing page, video background will only appear once user has navigated to sheet.
 
 ##Step 1 - Install the extension
 - For Qlik Sense Desktop - Download the zip file, unzip the file and drop the video backgrounds folder into C:\Users\[USERNAME]\Documents\Qlik\Sense\Extensions\ 
@@ -32,10 +33,9 @@ Example Use cases:
 - For Qlik Sense Server - Download the zip file and upload the zip file through the Qlik Management Console (QMC) on the extensions tab
 
 
-##Step 2 - Add the extension into Qlik Sense on the app landing page
+##Step 2 - Drag and Drop the extension and configure
 
 
-##Configure
 The extension requires three settings inside appearence >background info
 
 1. *Media URL* - **Required** - This is an absolute path to a mp4 or video format. 
