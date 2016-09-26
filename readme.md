@@ -2,7 +2,7 @@
 
 Add video backgrounds in Qlik Sense Apps. Use the data model to change the background video or image.
 
-See full description and details at http://www.webofwork.com/qlik-sense-video-background-extension
+See a demo video and get the direct download link to the Zip and full description and details at http://www.webofwork.com/qlik-sense-video-background-extension
 
 Built for Qlik Sense 2.2.4>
 
